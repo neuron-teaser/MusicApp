@@ -1,0 +1,67 @@
+PODS:
+  - Alamofire (4.9.0)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - Kingfisher (5.8.2):
+    - Kingfisher/Core (= 5.8.2)
+  - Kingfisher/Core (5.8.2)
+  - Locksmith (4.0.0.1)
+  - MarqueeLabel (4.0.0)
+  - NotificationBannerSwift (2.5.1):
+    - MarqueeLabel (~> 4.0.0)
+    - SnapKit (~> 5.0.0)
+  - ObjectMapper (3.5.1)
+  - ReachabilitySwift (4.3.1)
+  - SnapKit (5.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8)
+  - AlamofireObjectMapper
+  - Kingfisher (~> 5.0)
+  - Locksmith (from `https://github.com/stephanheilner/Locksmith.git`)
+  - NotificationBannerSwift
+  - ReachabilitySwift
+  - SVProgressHUD
+  - SwiftyJSON (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Kingfisher
+    - MarqueeLabel
+    - NotificationBannerSwift
+    - ObjectMapper
+    - ReachabilitySwift
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Locksmith:
+    :git: https://github.com/stephanheilner/Locksmith.git
+
+CHECKOUT OPTIONS:
+  Locksmith:
+    :commit: 7b40ae524cb7f7f84c4c23f991dc0d83ef35493d
+    :git: https://github.com/stephanheilner/Locksmith.git
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  Kingfisher: 3adc15096595f5aed800bb0d5cb757fc58b2d2dd
+  Locksmith: c8915e901caf2b72d98b26d8500739a532451d95
+  MarqueeLabel: b55b26e690b6ad41faedd95cbf5eae6f1d1735b4
+  NotificationBannerSwift: e55dd801b0d78f1a7bacb10d722a935ec95f94a3
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 3b6e55ea9d8ac7eddef926d3746f87aa6904d347
+
+COCOAPODS: 1.6.1
